@@ -59,3 +59,12 @@ At this point I was able to run Jekyll and create this first post on my new blog
 ```shell
 bundle exec jekyll serve
 ```
+\
+**P.S**. Something to note also is that some people claim the following environment variable settings helped them. I did them, not sure if it was part of the solution, but sure worth considering if you are fighting with a similar issue:
+
+```shell
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+```
