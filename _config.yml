@@ -16,6 +16,7 @@ plainwhite:
   tagline: Technical Architect
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  analytics_id: "G-2P7HW5WPJ6"
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
