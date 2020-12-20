@@ -8,7 +8,7 @@ I am facing a task of installing Oracle Database locally on my Mac, so I am doin
 
 It looks like the only supported operating systems are Linux and Windows.
 
-However one way to do it on a Mac would be to install it as a virtual machine or Docker container.
+However one way to do it on a Mac would be to install it as a virtual machine or a Docker container.
 
 Just google "Oracle Container Registry" (I am not providing the link because it seems it could be changing), from there select "Database" - and you will get the list of official Docker containers provided by Oracle with various editions.
 
